@@ -5,7 +5,7 @@ import WeatherGif from './assets/WeatherDashboard.gif'
 
 export default function WeatherComponent() {
     return (
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "25rem" }}>
             <Card.Img src={WeatherGif} alt="Card image cap" />
             <Card.Body>
                 <Card.Title>Weather App</Card.Title>

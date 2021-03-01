@@ -5,28 +5,44 @@ import StalkComponent from './stalk'
 import WeatherComponent from './weather'
 import WorkdayComponent from './workday'
 import QuizComponent from './quiz'
+import BantrComponent from './bantr'
+import BurgerComponent from './burger'
+import EmpGenComponent from './employee'
 
 export default function PortfolioComponent() {
     return (
         <div className='portDiv'>
             <NavbarComponent />
-            <Container style={{justifyContent: 'center'}}>
-            <Row>
-                <Col>
-                    <StalkComponent />
-                </Col>
-                <Col>
-                    <WeatherComponent />
-                </Col>
-            </Row>
-            <Row style={{paddingTop: '10px'}}>
-                <Col>
-                    <WorkdayComponent />
-                </Col>
-                <Col>
-                <QuizComponent/>
-                </Col>
-            </Row>
+            <Container style={{ justifyContent: 'center' }}>
+                <Row>
+                    <Col>
+                        <StalkComponent />
+                    </Col>
+                    <Col>
+                        <WeatherComponent />
+                    </Col>
+                </Row>
+                <Row style={{ paddingTop: '10px' }}>
+                    <Col>
+                        <WorkdayComponent />
+                    </Col>
+                    <Col>
+                        <QuizComponent />
+                    </Col>
+                </Row>
+                <Row style={{ paddingTop: '10px' }}>
+                    <Col>
+                        <BantrComponent />
+                    </Col>
+                    <Col>
+                        <BurgerComponent/>
+                    </Col>
+                </Row>
+                <Row style={{ paddingTop: '10px' }}>
+                    <Col>
+                        <EmpGenComponent/>
+                    </Col>
+                </Row>
             </Container>
         </div>
     )

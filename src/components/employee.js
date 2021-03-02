@@ -5,7 +5,7 @@ import EmpImg from './assets/EmpTeamGen.jpg'
 
 export default function EmpGenComponent() {
     return (
-        <Card style={{width: "25rem"}}>
+        <Card style={{width: "25rem", height:'100%'}}>
         <Card.Img src={EmpImg} alt="Card image cap"/>
         <Card>
             <Card.Text class="card-title">Employee Team Generator</Card.Text>

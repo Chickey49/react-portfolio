@@ -4,7 +4,7 @@ import BantrImg from './assets/bantr.jpg'
 
 export default function BantrComponent() {
     return (
-        <Card style={{ width: "25rem" }}>
+        <Card style={{ width: "25rem", height:'100%' }}>
             <Card.Img src={BantrImg} alt="Card image cap" />
             <Card>
                 <Card.Title>BANTR</Card.Title>

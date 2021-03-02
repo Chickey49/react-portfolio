@@ -4,7 +4,7 @@ import QuizGif from './assets/QuizGame.gif'
 
 export default function QuizComponent() {
     return (
-        <Card style={{ width: "25rem" }}>
+        <Card style={{ width: "25rem", height:'100%' }}>
             <Card.Img src={QuizGif} alt="Card image cap" />
             <Card.Body>
                 <Card.Text>Quiz Game</Card.Text>

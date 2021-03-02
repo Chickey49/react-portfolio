@@ -8,6 +8,7 @@ import QuizComponent from './quiz'
 import BantrComponent from './bantr'
 import BurgerComponent from './burger'
 import EmpGenComponent from './employee'
+import GlucoseComponent from './glucose'
 
 export default function PortfolioComponent() {
     return (
@@ -41,6 +42,9 @@ export default function PortfolioComponent() {
                 <Row style={{ paddingTop: '10px' }}>
                     <Col>
                         <EmpGenComponent/>
+                    </Col>
+                    <Col>
+                        <GlucoseComponent/>
                     </Col>
                 </Row>
             </Container>

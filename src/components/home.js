@@ -7,8 +7,8 @@ export default function HomeComponent() {
     return (
         <div>
             <NavbarComponent />
-            <div >
-                <Card className="text-center"style={{backgroundColor:'transparent'}}>
+            <div style={{marginLeft:'20%', marginTop: "40px"}}>
+                <Card className="text-center"style={{backgroundImage:'linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%)', width:'80%'}}>
                     <Card.Header>Welcome!</Card.Header>
                     <Card.Body >
                         <Card.Title>Thank you for visiting my Portfolio Site!</Card.Title>

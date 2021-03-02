@@ -4,7 +4,7 @@ import StalkImg from './assets/project-stock.png'
 
 export default function StalkComponent() {
     return (
-        <Card style={{width: "25rem"}}>
+        <Card style={{width: "25rem", height:'100%'}}>
             <Card.Img variant='top' src={StalkImg} alt="Card image cap" />
             <Card.Body>
                 <Card.Title>STALK</Card.Title>

@@ -5,7 +5,7 @@ import WorkdayGif from './assets/WorkDayScheduler.gif'
 
 export default function WorkdayComponent() {
     return (
-        <Card style={{ width: "25rem" }}>
+        <Card style={{ width: "25rem", height:'100%' }}>
             <Card.Img src={WorkdayGif} alt="Card image cap" />
             <Card.Body>
                 <Card.Title>Daily Planner</Card.Title>

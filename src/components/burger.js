@@ -4,7 +4,7 @@ import BurgerImg from './assets/ScreenshotEatDaBurger.jpg'
 
 export default function BurgerComponent() {
     return (
-        <Card style={{ width: "25rem" }}>
+        <Card style={{ width: "25rem", height:'100%' }}>
             <Card.Img src={BurgerImg} alt="Card image cap" />
             <Card>
                 <Card.Title>Eat-Da-Burger</Card.Title>
